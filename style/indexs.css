@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav{
+    backdrop-filter: blur(120px);
+}
+body{
+    background: #fedc81;
+    
+}
+#header-bg{
+    background: url(../image/RaichenBg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 10px;
+}
+.header-content{
+    margin: 120px 30px;
+    width: 100%;
+    max-width: 500px;
+}
+.header-content h1{
+    font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
+}
+.header-image img{
+    width: 100%;
+    max-width: 500px;
+}
+@media screen and (max-width: 800px){
+    .header-content{
+        margin: 5px 10px;
+    }
+    
+}
+.caro{
+    width: 100%;
+    height: 90vh;
+}
+.next{
+    background: yellowgreen;
+}
+.shop{
+    padding: 5px;
+    margin-top: 5px;
+    background: white;
+    border-radius: 10px;
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.title h1{
+    font-size: clamp(1.5625rem, 0.3906rem + 3.75vw, 2.5rem);
+}
+.dogfood{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 10px;
+    gap: 30px;
+    text-align: center;
+}
+
+.dogfood-content{
+    background: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.dogfood-content img{
+   width: 100%;
+   max-width: 300px;
+}
+#approved-section{
+    background: #fedc81;
+
+}
+
+.approved-header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.approved-content{
+    width: 100%;
+    max-width: 300px;
+}
+
+.approved-content h1{
+    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+}
+
+#our-story {
+    background: #fedc81 url('../image/decor.png') no-repeat right top;
+}
+@media screen and (max-width: 1300px){
+    #our-story{
+        background: #fedc81 none;
+        margin-top: 100px;
+    }
+}
+
+
+
+.our-story-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.our-story-content{
+    width: 100%;
+    max-width: 800px;
+    margin: 100px 20px;
+}
+
+
+.our-story-image img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.image-phone{
+    display: none;
+}
+
+.color{
+    border-top: 5px solid #fec11c;
+    border-bottom: 5px solid #fec11c;
+}

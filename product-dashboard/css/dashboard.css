@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-top{
+    margin-top: 80px;
+}
+
+.product-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.product-content img{
+    width: 100%;
+    max-width: 200px;
+
+}
